@@ -19,6 +19,7 @@
   margin: 15px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #NavBar > ul > li{

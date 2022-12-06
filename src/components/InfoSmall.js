@@ -1,4 +1,4 @@
-export default function InfoSmall() {
+export default function InfoSmall(props) {
     return(
         <div className="InfoSmall">
             <h4>Test</h4>
