@@ -3,7 +3,9 @@
   padding: 0;
 }
 
-
+#root{
+  background-color: rgb(190, 190, 161);
+}
 
 #FrontPage{
   display: grid;
@@ -20,6 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: grey;
 }
 
 #NavBar > ul > li{
@@ -42,11 +45,14 @@
   display: grid;
   grid-template-columns: repeat(5, 20%) ;
   grid-template-rows: repeat(5, 20%) ;
+  background-color: grey;
 }
 
-#Grid {
-  grid-area: 2/2/5/5;
-  border: 5px solid black;
+#Graph {
+  grid-area: 2/1/6/6;
+  border: 5px solid black; 
+  margin: 15px;
+  background-color: antiquewhite;
 }
 
 .InfoSmall{
@@ -55,4 +61,5 @@
   flex-direction: column;
   border: 5px solid black;
   margin: 5px;
+  background-color: grey;
 }

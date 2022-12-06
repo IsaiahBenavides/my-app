@@ -1,24 +1,36 @@
 export default function NavBar() {
-    return(
+    return (
         <nav id="NavBar">
             <ul>
                 <li>
-                    Dashboard
+                    <a href="#">
+                        Dashboard
+                    </a>
                 </li>
                 <li>
-                    Widget
+                    <a href="#">
+                        Widget
+                    </a>
                 </li>
                 <li>
-                    Reviews
+                    <a href="#">
+                        Reviews
+                    </a>
                 </li>
                 <li>
-                    Customers
+                    <a href="#">
+                        Customers
+                    </a>
                 </li>
                 <li>
-                    Online Analysis
+                    <a href="#">
+                        Online Analysis
+                    </a>
                 </li>
                 <li>
-                    Settings
+                    <a href="#">
+                        Settings
+                    </a>
                 </li>
             </ul>
         </nav>
