@@ -1,8 +1,10 @@
-export default function Reviews(props) {
+import data from "../data"
+
+export default function Reviews() {
     return (
         <div className="InfoSmall">
-            <h4>{props.title}</h4>
-            <h2>{props.number}</h2>
+            <h4>{data[0].title}</h4>
+            <h2>{data[0].number}</h2>
         </div>
     )
 }

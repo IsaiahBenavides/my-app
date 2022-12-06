@@ -1,8 +1,10 @@
-export default function Sentiment(props) {
+import data from "../data"
+
+export default function Sentiment() {
     return (
         <div className="InfoSmall">
-            <h4>{props.title}</h4>
-            <h2>{props.number}</h2>
+            <h4>{data[2].title}</h4>
+            <h2>{data[2].number}</h2>
         </div>
     )
 }

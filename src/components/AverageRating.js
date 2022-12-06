@@ -1,8 +1,10 @@
-export default function AverageRating(props) {
+import data from "../data"
+
+export default function AverageRating() {
     return (
         <div className="InfoSmall">
-            <h4>{props.title}</h4>
-            <h2>{props.number}</h2>
+            <h4>{data[2].title}</h4>
+            <h2>{data[2].number}</h2>
         </div>
     )
 }
